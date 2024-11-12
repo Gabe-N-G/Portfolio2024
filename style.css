@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box
+  }
+  body {
+    background-color: #273Be2;
+    /* Use a system font, if none are available use an available sans-sarif font */
+    /* azeret mono is downloaded by adobe fonts */
+    font-family: "azeret-mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+    /* Ensures full height compatibility across devices */
+    color: #f8f8ff;
+    min-height: 100dvh;
+    height: 100vh;
+    margin: 0;
+  }
+  nav {
+    background-color: rgb(82, 82, 82);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 20px 20px;
+  }
+
+  nav img{
+    text-align: left;
+  }
+
+  main{
+    background-image: url(assets/Kelli\ McGuire_008.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 20px;
+}
