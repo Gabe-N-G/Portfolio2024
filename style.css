@@ -2,7 +2,7 @@
     box-sizing: border-box
   }
   body {
-    background-color: #0c578d;
+    background-color: #007bff;
     /* Use a system font, if none are available use an available sans-sarif font */
     /* azeret mono is downloaded by adobe fonts */
     font-family: "azeret-mono", monospace;
@@ -75,3 +75,21 @@ p, li{
   margin: 15px 50px;
   box-shadow: 10px 15px; 
 }
+
+.portfolio-card a{
+  display: inline-block; 
+  padding: 10px 20px; 
+  background-color: #007bff; /* Button background color */ 
+  color: #fff; /* Text color */ 
+  text-decoration: none; /* Remove underline from the link */ 
+  border: outset; 
+  box-shadow: 5px 5px 2px black;
+  border-radius: 5px; /* Rounded corners */ 
+  cursor: pointer; 
+  font-weight: bold; 
+  transition: background-color 0.3s ease; /* Smooth hover effect */ 
+}
+
+.portfolio-card a:hover { 
+  background-color: #0056b3; /* Change color on hover */ 
+} 
