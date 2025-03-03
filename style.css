@@ -2,7 +2,7 @@
     box-sizing: border-box
   }
   body {
-    background-color: #0000ff;
+    background-color: #0F52BA;
     /* Use a system font, if none are available use an available sans-sarif font */
     /* azeret mono is downloaded by adobe fonts */
     font-family: "azeret-mono", monospace;
@@ -60,7 +60,14 @@ main{
 p, li{
   font-family: 'roboto', Arial, Helvetica, sans-serif;
   font-weight: 400;
+  margin: 0 2rem;
   color: #f8f8ff;
+}
+
+
+.photo-profile{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .portfolio-card{
