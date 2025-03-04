@@ -56,6 +56,9 @@ main{
 }
 
 
+h1{
+  margin-left: 5%;
+}
 
 p, li{
   font-family: 'roboto', Arial, Helvetica, sans-serif;
@@ -64,10 +67,20 @@ p, li{
   color: #f8f8ff;
 }
 
+.h1-left{
+  margin-left: 5rem;
+}
+
 
 .photo-profile{
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.left-text{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .portfolio-card{
